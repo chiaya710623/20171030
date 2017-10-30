@@ -1,0 +1,74 @@
+body{
+	background-image: url("back2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+}
+
+/*弄一個100%螢幕高度的白色半透明區塊*/
+.alpha{
+	height: 100vh;
+	background-color: rgba(230, 255, 255, 0.4);
+}
+
+/*把邊界去掉*/
+.clear{
+	margin:0px 0px 0px 0px;
+}
+
+.box{
+	height:40vh;
+	width:15vw;
+	background-color:rgba(0,0,0,0.3);
+	margin-top:6.6vh;
+	margin-left:8vw;
+	/*本來div會是一行一行 阿就把他inline*/
+	display: inline-block;
+	border-radius:15px;
+	transition: transform 1s;
+}
+
+/*.box:hover{
+	background-color: rgba(0,0,0,0.7);
+	transform: rotate(360deg) scale(0.95) translate(20px,0px) skew(3deg);
+	animation: ani 0.5s infinite;
+	animation: bounce 1s infinite;
+}*/
+
+/*@keyframes ani {
+	0%{
+		transform:rotate(3deg);
+	}
+	25%{
+		transform:rotate(-3deg);
+		}
+	50%{
+		transform:scale(1.1);
+	}
+}*/
+
+.pic{
+	width:12vw;
+	height:20vh;
+	margin-top:5vh;
+	margin-left:1.5vw;
+	position: fixed;
+}
+
+.text{
+	position:fixed;
+	font-size:6vw;
+	font-size:3vh;
+	font-family:fantasy;
+	color:#CCDDFF;
+	text-align:center;
+	width:15vw;
+	height:8vh;
+	background-color: rgba(0,0,0,0.3);
+	margin-top:32vh;
+	border-radius:0px 0px 15px 15px;
+}
+
+
+/*去抓別人做好的CSS：Animate.css
+可以放在同一個資料夾*/
